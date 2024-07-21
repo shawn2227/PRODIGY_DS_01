@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Load the Titanic dataset
 # Make sure to update the file path to where you've saved the Titanic dataset
-data = pd.read_csv('/Users/shawnrodrigues/Downloads/Sample/train.csv')
+data = pd.read_csv('train.csv')
 
 # Check the first few rows of the dataset to understand its structure
 print(data.head())
